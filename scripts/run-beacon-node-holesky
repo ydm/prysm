@@ -1,0 +1,11 @@
+#!/bin/bash
+
+./prysm.sh beacon-chain \
+           --checkpoint-sync-url=https://beaconstate-holesky.chainsafe.io \
+           --datadir=/opt/ethereum2/holesky \
+           --enable-debug-rpc-endpoints \
+           --execution-endpoint=http://127.0.0.1:8551 \
+           --genesis-beacon-api-url=https://beaconstate-holesky.chainsafe.io \
+           --holesky \
+           --jwt-secret=/tmp/jwtsecret \
+           --suggested-fee-recipient=0x4a8D83c81E74B0ac05Be0a5ef4991Bda1f5d84a1

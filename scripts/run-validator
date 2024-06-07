@@ -1,0 +1,7 @@
+#!/bin/bash
+
+./prysm.sh validator \
+           --datadir=/opt/ethereum2/holesky \
+           --holesky \
+           --proposer-settings-file=./scripts/proposer-settings.json \
+           --wallet-dir="$PWD/scripts/wallet-dir"

@@ -1,0 +1,9 @@
+{
+  "default_config": {
+    "fee_recipient": "0x4a8D83c81E74B0ac05Be0a5ef4991Bda1f5d84a1",
+    "builder": {
+      "enabled": true,
+      "gas_limit": "30000000"
+    }
+  }
+}
